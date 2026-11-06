@@ -1,6 +1,6 @@
 # Refactoring Learning Pack — Java Examples
 
-A practical, example-driven companion to the Refactoring.Guru catalogue. It contains **67 individual Markdown lessons**: all 66 techniques in the Refactoring.Guru catalogue plus one additional technique from Martin Fowler's catalogue.
+A practical, example-driven companion to the Refactoring.Guru catalogue. It contains **90 individual learning lessons**: 66 official Refactoring.Guru refactoring techniques, one additional Java technique, and 23 Code Smell topics with examples.
 
 > The additional lesson is **Replace Loop with Pipeline**. It is included as lesson 67 for practical completeness; it is not an extra entry in the Refactoring.Guru 66-technique count.
 
@@ -22,7 +22,13 @@ A practical, example-driven companion to the Refactoring.Guru catalogue. It cont
 - **Dealing with Generalization** — 12 lessons (`06-dealing-with-generalization/`)
 - **Additional Practical Technique** — 1 lessons (`07-additional-practical-technique/`)
 
-## Lesson index
+## Code Smells (23 lessons)
+
+The Code Smells section is in `08-code-smells/`. It covers Bloaters, Object-Orientation Abusers, Change Preventers, Dispensables, Couplers, and Other Smells. Start with [the Code Smells index](08-code-smells/README.md).
+
+The live Refactoring.Guru navigation exposes 23 unique smell topics, although its overview page still advertises 21. This pack follows the linked topic catalogue and counts `Incomplete Library Class` once.
+
+## Refactoring technique lesson index
 
 ### Composing Methods
 - [Extract Method](01-composing-methods/extract-method.md)
@@ -105,7 +111,7 @@ A practical, example-driven companion to the Refactoring.Guru catalogue. It cont
 ### Additional Practical Technique
 - [Replace Loop with Pipeline *(additional)*](07-additional-practical-technique/replace-loop-with-pipeline.md)
 
-## Coverage and the 67th lesson
+## Coverage and the 67th technique lesson
 
 The Refactoring.Guru catalog page lists six technique groups. This pack includes every technique in those groups. The 67th file, `07-additional-practical-technique/replace-loop-with-pipeline.md`, is an additional technique listed in Martin Fowler's catalog and widely useful in Java collection processing.
 

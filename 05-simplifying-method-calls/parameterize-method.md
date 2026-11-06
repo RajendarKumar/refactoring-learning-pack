@@ -2,6 +2,8 @@
 
 > Category: Simplifying Method Calls  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Replace similar methods with one method that accepts the varying value as a parameter.

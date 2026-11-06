@@ -2,6 +2,8 @@
 
 > Category: Organizing Data  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Remove trivial subclasses whose only difference is constant data, and represent that data as fields.

@@ -13,6 +13,12 @@ Refactoring is a disciplined change to the internal structure of code that prese
 5. **Review the diff.** Look for accidental behaviour changes, API changes, transaction changes, altered ordering, or new coupling.
 6. **Commit separately.** Keep refactoring separate from feature work so rollback and review remain easy.
 
+## Code Smells: learn to recognize the reason before choosing a fix
+
+A **code smell** is a symptom; a **refactoring technique** is a transformation you may apply to address it. One smell can have several treatments, and the right treatment depends on the cause. For example, a complex switch can sometimes be replaced with polymorphism, but a small stable switch can remain as-is.
+
+Read [08-code-smells/README.md](08-code-smells/README.md) for 23 individual smell lessons with Java examples. A useful first topic is [Switch Statements](08-code-smells/02-object-orientation-abusers/switch-statements.md).
+
 ## A suggested learning sequence
 
 - **Beginner:** Extract Method, Rename Method, Extract Variable, Replace Magic Number with Symbolic Constant, Replace Nested Conditional with Guard Clauses, Encapsulate Field.
@@ -30,4 +36,4 @@ Refactoring is a disciplined change to the internal structure of code that prese
 
 For each lesson, explain the intent in your own words, reproduce the before/after transformation, write tests for the behaviour, and complete the exercise. Refactoring skill comes from repeated, test-backed practice.
 
-See [README.md](README.md) for the full 67-lesson index.
+See [README.md](README.md) for the complete 90-lesson index, including Code Smells.

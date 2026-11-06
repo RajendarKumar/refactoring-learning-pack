@@ -2,6 +2,8 @@
 
 > Category: Moving Features Between Objects  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Let clients call the delegate directly when a class only forwards many operations.

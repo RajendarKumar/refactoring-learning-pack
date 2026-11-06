@@ -2,6 +2,8 @@
 
 > Category: Simplifying Conditional Expressions  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Move type-dependent branches into implementations of a common interface.

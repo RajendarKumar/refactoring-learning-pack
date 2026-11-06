@@ -2,6 +2,8 @@
 
 > Category: Simplifying Method Calls  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Use a named factory method when construction requires intent, selection, or setup beyond a simple constructor.

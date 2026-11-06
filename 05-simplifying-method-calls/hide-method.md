@@ -2,6 +2,8 @@
 
 > Category: Simplifying Method Calls  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Reduce the visibility of a method that is not part of the class’s public contract.

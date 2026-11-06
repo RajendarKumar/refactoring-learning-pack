@@ -2,6 +2,8 @@
 
 > Category: Simplifying Method Calls  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Check a predictable condition before performing an operation instead of using exceptions for normal control flow.

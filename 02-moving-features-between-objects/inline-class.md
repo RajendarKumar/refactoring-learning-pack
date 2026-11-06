@@ -2,6 +2,8 @@
 
 > Category: Moving Features Between Objects  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Move the responsibilities of a class into its caller and remove the class when it no longer adds value.

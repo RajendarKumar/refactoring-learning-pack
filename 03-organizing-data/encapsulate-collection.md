@@ -2,6 +2,8 @@
 
 > Category: Organizing Data  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Return a protected view or copy of a collection and provide controlled modification methods.

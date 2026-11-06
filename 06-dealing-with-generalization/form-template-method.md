@@ -2,6 +2,8 @@
 
 > Category: Dealing with Generalization  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Move a common algorithm skeleton into a superclass while subclasses provide varying steps.

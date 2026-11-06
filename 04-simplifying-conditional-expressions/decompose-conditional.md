@@ -2,6 +2,8 @@
 
 > Category: Simplifying Conditional Expressions  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Extract condition, then-branch, and else-branch logic into named methods.

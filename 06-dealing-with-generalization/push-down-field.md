@@ -2,6 +2,8 @@
 
 > Category: Dealing with Generalization  
 > Language: Java 21 (examples use standard Java unless noted)  
+> Catalogue status: One of the 66 techniques listed in the Refactoring.Guru catalogue.
+
 ## Intent
 
 Move a field from a superclass into only the subclasses that use it.
